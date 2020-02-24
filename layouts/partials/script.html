@@ -37,7 +37,11 @@
   $('.archive-year').velocity('transition.slideLeftIn');
 </script>
 {{ end }}
-<script type="text/javascript" src="/js/search.js"></script>
+{{ if (eq .Site.Language.Lang "zh") }}
+<script type="text/javascript" src="/js/search_zh.js"></script>
+{{ else }}
+<script type="text/javascript" src="/js/search_en.js"></script>
+{{ end }}
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],

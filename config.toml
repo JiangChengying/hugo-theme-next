@@ -1,5 +1,3 @@
-Title =  "蘭陵N散記"
-LanguageCode = "zh-CN"
 BaseUrl = "https://chengying.netlify.com"
 Theme =  "next"
 MetaDataFormat =  "yaml"
@@ -14,73 +12,83 @@ UglyUrls = false
 PygmentsStyle = "monokai"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
-DefaultContentLanguage = "zh"
 disqusShortname = "chengying-jiang"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.zh]
+    title =  "成英的小站"
+    Subtitle = "云散月明 天容海色"
+  [languages.en]
+    title = "Chengying's blog"
 
 [Params]
-  Introduce = "Programmer & Architect"
-  Description = "蘭陵N散記 | 博客 | 软件 | 架构 | Java | Golang"
-  Keywords =  "蘭陵N散記,兰陵,独立,博客,程序员,架构师,个人,思考,读书,笔记,技术,分享,Golang"
-  Subtitle = "一指流沙，程序年华"
-  Imglogo = "/img/logo.png"
+  Introduce = "Lifelong Learning"
+  Description = "成英的小站"
+  Keywords =  "博客,个人,思考,笔记,技术,分享"
   AuthorImg = "/img/author.jpg"
   DateFormat = "2006-01-02"
   YearFormat = "2006年"
   MonthFormat = "01-02"
-  #BaiduStatsId = "0b07433b4ab8d587dae7d34e71973839"
-  #QQStatsId = "58416275"
   RevolverMapId = "5b4f2ucxar6"
   Fancybox = true
 
 [Author]
-  Name = "兰陵子"
+  Name = "姜成英"
 
 [Params.Share]
   #DuoShuo = "lanlingzi"
   Baidu = true
 
-[[Menu.Main]]
+[[languages.zh.menu.main]]
   Name = "首页"
   Pre = "home"
-  URL = "/"
+  URL = "/zh/"
   Weight = 1
-[[Menu.Main]]
-  Name = "技术"
-  Pre = "code"
-  URL = "/categories/技术/"
-  Weight = 2
-[[Menu.Main]]
-  Name = "感想"
-  Pre = "tint"
-  URL = "/categories/感想/"
-  Weight = 3
-[[Menu.Main]]
-  Name = "笔记"
-  Pre = "book"
-  URL = "/categories/笔记/"
-  Weight = 4
-[[Menu.Main]]
-  Name = "杂记"
-  Pre = "leaf"
-  URL = "/categories/杂记/"
-  Weight = 5
-[[Menu.Main]]
+[[languages.en.menu.main]]
+  Name = "Home"
+  Pre = "home"
+  URL = "/en/"
+  Weight = 1
+[[languages.zh.menu.main]]
   Name = "归档"
   Pre = "archive"
-  URL = "/post/"
-  Weight = 6
-[[Menu.Main]]
+  URL = "/zh/post/"
+  Weight = 2
+[[languages.en.menu.main]]
+  Name = "Archives"
+  Pre = "archive"
+  URL = "/en/post/"
+  Weight = 2
+[[languages.zh.menu.main]]
   Name = "关于"
   Pre = "user"
-  URL = "/about/"
-  Weight = 7
+  URL = "/zh/about"
+  Weight = 3
+[[languages.en.menu.main]]
+  Name = "About"
+  Pre = "user"
+  URL = "/en/about/"
+  Weight = 3
+[[languages.zh.menu.main]]
+  name = "EN"
+  Pre = "fas fa-language"
+  url = "/en/"
+  weight = 4
+[[languages.en.menu.main]]
+  name = "中文"
+  Pre = "fas fa-language"
+  url = "/zh/"
+  weight = 4
+
 
 [[Params.Socials]]
   Name = "GitHub"
   Icon = "github"
-  URL = "https://github.com/xtfly/"
+  URL = "https://github.com/JiangChengying"
 
 [[Params.Socials]]
-  Name = "知乎"
-  Icon = "globe"
-  URL = "https://www.zhihu.com/people/lan-ling-xin-yun"  
+  Name = "E-mail"
+  Icon = "envelope"
+  URL = "mailto:jchy15089077321@gmail.com"
