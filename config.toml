@@ -1,6 +1,6 @@
 Title =  "蘭陵N散記"
 LanguageCode = "zh-CN"
-BaseUrl = "http://lanlingzi.cn/"
+BaseUrl = "https://chengying.netlify.com"
 Theme =  "next"
 MetaDataFormat =  "yaml"
 CanonifyUrls =  true
@@ -15,6 +15,7 @@ PygmentsStyle = "monokai"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 DefaultContentLanguage = "zh"
+disqusShortname = "chengying-jiang"
 
 [Params]
   Introduce = "Programmer & Architect"
