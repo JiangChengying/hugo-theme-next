@@ -9,10 +9,9 @@ DisablePathToLower =  false
 HasCJKLanguage = true
 PreserveTaxonomyNames = false
 UglyUrls = false
-PygmentsStyle = "monokai"
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 disqusShortname = "chengying-jiang"
+footnotereturnlinkcontents = "↩"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 
@@ -31,15 +30,10 @@ defaultContentLanguageInSubdir = true
   DateFormat = "2006-01-02"
   YearFormat = "2006年"
   MonthFormat = "01-02"
-  RevolverMapId = "5b4f2ucxar6"
   Fancybox = true
 
 [Author]
   Name = "姜成英"
-
-[Params.Share]
-  #DuoShuo = "lanlingzi"
-  Baidu = true
 
 [[languages.zh.menu.main]]
   Name = "首页"

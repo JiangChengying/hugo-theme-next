@@ -251,7 +251,7 @@ $(document).ready(function () {
       }
     },
 
-    menu: function (integrator) {
+    /*menu: function (integrator) {
       $('.menu-item').velocity('transition.slideDownIn', {
         display: null,
         duration: 200,
@@ -285,7 +285,7 @@ $(document).ready(function () {
         NexT.utils.displaySidebar();
       }
       integrator.next();
-    }
+    }*/
   };
 
 });
